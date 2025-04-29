@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Записаться к ветеринару"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/inputPetName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Имя питомца"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/inputDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Дата (например, 12.05.2024)"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/inputTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Время (например, 14:30)"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/inputReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Причина обращения"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/bookVetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Записаться"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ваши записи к врачу:"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <ListView
+            android:id="@+id/vetListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"/>
+
+    </LinearLayout>
+</ScrollView> 

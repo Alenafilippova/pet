@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetCareApp</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="registration">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="fill_all_fields">Пожалуйста, заполните все поля</string>
+    <string name="passwords_do_not_match">Пароли не совпадают</string>
+    <string name="main_title">Уход за питомцами</string>
+    <string name="add_pet">Добавить питомца</string>
+    <string name="schedule">Расписание</string>
+    <string name="vet">Ветеринар</string>
+    <string name="food">Кормление</string>
+    <string name="grooming">Уход</string>
+    <string name="notes">Заметки</string>
+    <string name="settings">Настройки</string>
+    <string name="add_pet_title">Добавить питомца</string>
+    <string name="pet_name">Кличка питомца</string>
+    <string name="pet_type">Тип животного</string>
+    <string name="breed">Порода</string>
+    <string name="age">Возраст (лет)</string>
+    <string name="weight">Вес (кг)</string>
+    <string name="save">Сохранить</string>
+    <string name="pet_added">Питомец успешно добавлен</string>
+    <string name="number_error">Пожалуйста, введите корректные числовые значения</string>
+    <string name="settings_title">Настройки</string>
+</resources>

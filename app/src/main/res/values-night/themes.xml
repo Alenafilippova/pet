@@ -1,0 +1,22 @@
+<resources>
+    <style name="Theme.MyApplicat" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:buttonStyle">@style/Widget.PetCareApp.Button</item>
+    </style>
+
+    <style name="Widget.PetCareApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorOnAccent</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="elevation">6dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+</resources> 
